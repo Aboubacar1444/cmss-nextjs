@@ -1,0 +1,54 @@
+@import "bootstrap-css-only/css/bootstrap.min.css";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+@import "~mdb-ui-kit/css/mdb.min.css";
+@import "@/assets/dist/scss/mdb-pro.scss";
+
+//@tailwind base;
+//@tailwind components;
+//@tailwind utilities;
+
+/*:root {*/
+/*  --foreground-rgb: 0, 0, 0;*/
+/*  --background-start-rgb: 214, 219, 220;*/
+/*  --background-end-rgb: 255, 255, 255;*/
+/*}*/
+
+/*@media (prefers-color-scheme: dark) {*/
+/*  :root {*/
+/*    --foreground-rgb: 255, 255, 255;*/
+/*    --background-start-rgb: 0, 0, 0;*/
+/*    --background-end-rgb: 0, 0, 0;*/
+/*  }*/
+/*}*/
+
+/*body {*/
+/*  color: rgb(var(--foreground-rgb));*/
+/*  background: linear-gradient(*/
+/*      to bottom,*/
+/*      transparent,*/
+/*      rgb(var(--background-end-rgb))*/
+/*    )*/
+/*    rgb(var(--background-start-rgb));*/
+/*}*/
+html{
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 1.4px;
+  word-spacing: 2.2px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none;
+}
+.navLink {
+  box-shadow: inset 0 0 0 0 grey;
+  color: #54b3d6;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.navLink:hover {
+  box-shadow: inset 200px 0 0 0 darkorange;
+  color: white!important;
+}

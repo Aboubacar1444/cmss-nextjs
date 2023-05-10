@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="34429a0f-f6af-4147-9f1b-e127af5cc37c" name="devbu" url="http://ns3198212.ip-141-94-98.eu">
+        <fileTransfer host="ns3198212.ip-141-94-98.eu" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" showHiddenFiles="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
